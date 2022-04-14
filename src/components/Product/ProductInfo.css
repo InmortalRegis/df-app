@@ -1,0 +1,26 @@
+.product__info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product__info {
+  border-bottom: 1px solid var(--dusty-gray);
+  padding-bottom: 16px;
+}
+
+.product__brand {
+  font-size: var(--fz-lg);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.product__name {
+  color: var(--dusty-gray) !important;
+  margin-bottom: 0.5rem;
+}
+
+.product__seller {
+  color: var(--dusty-gray) !important;
+  font-size: var(--fz-xxs);
+}

@@ -1,0 +1,20 @@
+.product-sizes__size {
+  border-radius: 50%;
+  background-color: var(--gallery);
+  color: var(--dove-gray);
+  font-weight: 700;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0px;
+  margin-right: 1rem;
+  font-size: var(--fz-sm);
+  flex: 0 0 auto;
+}
+.product-sizes__title {
+  font-size: var(--fz-md);
+  font-weight: 700;
+  color: var(--dove-gray);
+}
